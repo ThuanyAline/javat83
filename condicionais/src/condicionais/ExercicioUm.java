@@ -1,4 +1,4 @@
-package exerciciosRelacionais;
+package condicionais;
 
 import java.util.Scanner;
 
