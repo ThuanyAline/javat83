@@ -14,7 +14,7 @@ public class ExercicioSete {
 		System.out.println("Digite o número 2");
 		float numero2 = scanner.nextFloat();
 		
-		System.out.println("Digite a operação ");
+		System.out.println("Digite a operação");
 		int operacao = scanner.nextInt();
 		
 		switch (operacao) {
