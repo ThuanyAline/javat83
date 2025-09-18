@@ -15,7 +15,7 @@ public class ExercicioQuatroMatriz {
 		
 				// input das notas
 		for(int linha = 0; linha< matriz.length; linha ++) {
-			for(int coluna =0; coluna <matriz[linha].length; coluna ++) {
+			for(int coluna = 0; coluna <matriz[linha].length; coluna ++) {
 				System.out.printf("matriz[%d][%d] = ", linha, coluna);
 				 matriz[linha][coluna]= leia.nextFloat();		
 				

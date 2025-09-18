@@ -26,6 +26,8 @@ public class ExemploVetores {
 			System.out.printf("nomes[%d] = %s%n", indice, nomes[indice]);
 		}
 		
+		System.out.println("\nInput de dados - Vetor de Numeros");
+		
 		for (int indice = 0; indice < numeros.length; indice++) {
 			System.out.printf("numeros[%d] = %s%nde nomes");
 			numeros[indice] = leia.nextInt();
@@ -33,13 +35,16 @@ public class ExemploVetores {
 		System.out.printf("\nImput de dados - Vetor");
 
 		}
+		
+		Arrays.sort(numeros);
 
 		System.out.printf("n/Listagem- Vetor de nomes");
 
 		for (int indice = 0; indice < numeros.length; indice++) {
 			System.out.printf("numeros[%d] = %s%n", indice, numeros[indice]);
-            nomes[indice] = leia.nextInt();
+           
 		}
+		
 		leia.close();
 	}
 }
